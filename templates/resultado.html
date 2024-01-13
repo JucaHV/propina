@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Resultado del cálculo:</h2>
+        <p>Total de propina a agregar: ${{ total_tip }}</p>
+        <p>Total de la cuenta con propina: ${{ total_bill }}</p>
+        <p>Cada uno debe pagar: ${{ each_person }}</p>
+    </div>
+</body>
+</html>
+
